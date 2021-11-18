@@ -3,8 +3,6 @@ matplotlib
 pandas
 seaborn
 numpy
-requests
-json
 folium
 streamlit_folium
 geocoder
