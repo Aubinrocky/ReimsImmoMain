@@ -1,1 +1,12 @@
 streamlit
+matplotlib.pytplot
+pandas
+seaborn
+numpy
+requests
+json
+folium
+streamlit_folium
+geocoder
+geopy
+plotly.express
