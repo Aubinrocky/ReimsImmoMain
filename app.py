@@ -15,7 +15,7 @@ import geopy
 import plotly.express as px
 # INTRODUCTION
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.title("Marché immobilier de Reims")
+st.title("Le marché immobilier à Reims")
 st.markdown("""
 Voici le bilan du marché immobilier rémois entre 2016 et 2020.
 * Base de données: [data-gouv.fr](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
