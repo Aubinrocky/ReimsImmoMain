@@ -14,6 +14,7 @@ import geocoder
 import geopy
 import plotly.express as px
 # INTRODUCTION
+st.beta_set_page_config(page_title='Immobilier Reims', layout = 'wide', initial_sidebar_state = 'auto')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Le marché immobilier à Reims")
 st.markdown("""
