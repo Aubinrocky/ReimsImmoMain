@@ -13,8 +13,10 @@ import ipywidgets
 import geocoder
 import geopy
 import plotly.express as px
+import favicon
 # INTRODUCTION
-st.set_page_config(page_title='Immobilier Reims', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
+icon = favicon.get('https://www.python.org/static/apple-touch-icon-144x144-precomposed.png')
+st.set_page_config(page_title='Immobilier Reims', page_icon = icon, layout = 'wide', initial_sidebar_state = 'auto')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Le marché immobilier à Reims")
 st.markdown("""
