@@ -18,8 +18,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Marché immobilier de Reims")
 st.markdown("""
 Voici le bilan du marché immobilier rémois entre 2016 et 2020.
-* **Base de données: [data-gouv.fr](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
-* **Librairies Python: pandas, streamlit, numpy, seaborn, folium, geocoder
+* Base de données: [data-gouv.fr](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
+* Librairies Python: pandas, streamlit, numpy, seaborn, folium, geocoder
 """)
 
 
