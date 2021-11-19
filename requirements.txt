@@ -8,3 +8,4 @@ streamlit_folium
 geocoder
 geopy
 plotly.express
+favicon
