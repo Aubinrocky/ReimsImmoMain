@@ -15,11 +15,11 @@ import geopy
 import plotly.express as px
 # INTRODUCTION
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.title("Marché de l'immobilier à Reims")
+st.title("Marché immobilier de Reims")
 st.markdown("""
-This app performs simple webscraping of NFL Football player stats data (focusing on Rushing)!
-* **Python libraries:** base64, pandas, streamlit, numpy, matplotlib, seaborn
-* **Data source:** [pro-football-reference.com](https://www.pro-football-reference.com/).
+Voici le bilan du marché immobilier rémois entre 2016 et 2020.
+* **Base de données: [data-gouv.fr](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
+* **Librairies Python: pandas, streamlit, numpy, seaborn, folium, geocoder
 """)
 
 
