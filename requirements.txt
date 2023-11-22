@@ -9,3 +9,4 @@ geocoder
 geopy
 plotly.express
 favicon
+ipywidgets
